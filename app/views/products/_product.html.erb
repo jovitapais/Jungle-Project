@@ -1,8 +1,13 @@
 <article class="product">
   <header>
-    <%= link_to product do %>
+    <%= link_to product do %> 
       <%= image_tag product.image.thumb, alt: product.name %>
       <h4><%= product.name %></h4>
+    <% end %>
+
+    <% if product.quantity.zero? %>
+      <aside class="sold-out">Sold Out 
+      </aside>
     <% end %>
   </header>
   <p class="description">
