@@ -4,7 +4,7 @@ RSpec.describe Product, type: :model do
   describe 'Validations' do
     # validation tests/examples here
     let (:category) {Category.create(name: "Watches")}
-    let (:product) {Product.new(name: "Rolex", price_cents:300000, quantity: 3, category_id: category.id)}
+    let (:product) {Product.new(name: "Heuer", price_cents:300000, quantity: 3, category_id: category.id)}
 
     it "is valid with valid attributes" do
       expect(product).to be_valid
