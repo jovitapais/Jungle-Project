@@ -6,6 +6,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 !["Home"](https://github.com/jovitapais/Jungle-Project/blob/master/screenshots/home.png)
 
+!["About"](https://github.com/jovitapais/Jungle-Project/blob/master/screenshots/about.png)
 
 !["My Cart"](https://github.com/jovitapais/Jungle-Project/blob/master/screenshots/my_cart.png)
 
